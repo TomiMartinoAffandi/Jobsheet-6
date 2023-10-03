@@ -8,10 +8,15 @@ public class Pemilihan2Percobaan1 {
         tahun = input27.nextFloat();
 
         if ((tahun % 4) == 0){
-            if ((tahun % 100) != 0) 
+            if ((tahun % 100) != 0){
                 System.out.print("Tahun Kabisat");
-        }else 
+            }else{
+                System.out.println("bukan tahun kabisat");
+            }
+        }
+        else {
             System.out.print("Bukan Tahun Kabisat");
+        }
     }
     
 }
