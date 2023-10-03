@@ -11,10 +11,13 @@ public class Pemilihan2Percobaan1 {
             if ((tahun % 100) != 0){
                 System.out.print("Tahun Kabisat");
             }else{
-                System.out.println("bukan tahun kabisat");
+                if ((tahun % 400) == 0) {
+                    System.out.println("Tahun Kabisat");
+                }else
+                System.out.println("Bukan Tahun Kabisat");
             }
         }
-        else {
+        else{ 
             System.out.print("Bukan Tahun Kabisat");
         }
     }
